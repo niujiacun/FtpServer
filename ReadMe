@@ -1,0 +1,24 @@
+手撸一个Ftp服务端程序。
+当然只是玩具版。
+
+支持的少部分命令
+1.用户登录。预制的账号root，并没有使用系统账号
+2.仅支持主动模式。
+3.仅支持Binary模式。
+4.仅支持文件的上传和下载。
+5.单线程。
+
+-- FtpServer.py 玩具版的FTP服务端代码
+-- ClinetTest.py 使用python自带的ftplib测试玩具版服务是否能够正常工作
+-- client 待上传的客户端文件，测试用
+-- server 待下载的服务端文件，测试用
+
+
+启动Ftp服务：
+> python FtpServer.py
+
+测试Ftp是否正常工作
+> python ClinetTest.py
+
+
+
